@@ -1,0 +1,8 @@
+1) React view are templates
+- You call it like a function and it gives you stuff
+
+2) Requires Nodejs
+- There are workarounds
+
+3) Runs on both server and client
+- Good to use states for server
