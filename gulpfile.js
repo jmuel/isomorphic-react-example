@@ -7,7 +7,7 @@ var through2 = require('through2');
 var getBundleName = function () {
   var version = require('./package.json').version;
   var name = require('./package.json').name;
-  return version + '.' + name + '.' + 'min';
+  return version + '-' + name;
 };
 
 gulp.task('build', function() {

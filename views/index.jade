@@ -2,4 +2,7 @@ html
 	head
 		title!= title
 	body
-		h1!= message
+		div(id="root")!= content
+	script(type='text/javascript')!= appState
+	script(src="/js/1.0.0-KCDCPresentation.js")
+		
